@@ -1,0 +1,8 @@
+C:\Users\afigi\Desktop\FoxMined\SourceCode\FindMaximum\FindMaxSum\test.txt
+2.45, 2.5
+1.5, 2.5
+1.4, 2.5, 10.6,253
+1.4, 2.5, 10.6,253
+12,sklf,65740.75859,ruehoe,645739,65384.87348,75838
+1.4, 2.5, 10.6,253,1
+1.4, 2.5, 10.6,253,1

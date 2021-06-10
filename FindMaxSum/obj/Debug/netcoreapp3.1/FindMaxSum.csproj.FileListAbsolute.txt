@@ -1,0 +1,13 @@
+C:\Users\afigi\Desktop\FoxMined\SourceCode\FindMaximum\FindMaxSum\bin\Debug\netcoreapp3.1\FindMaxSum.exe
+C:\Users\afigi\Desktop\FoxMined\SourceCode\FindMaximum\FindMaxSum\bin\Debug\netcoreapp3.1\FindMaxSum.deps.json
+C:\Users\afigi\Desktop\FoxMined\SourceCode\FindMaximum\FindMaxSum\bin\Debug\netcoreapp3.1\FindMaxSum.runtimeconfig.json
+C:\Users\afigi\Desktop\FoxMined\SourceCode\FindMaximum\FindMaxSum\bin\Debug\netcoreapp3.1\FindMaxSum.runtimeconfig.dev.json
+C:\Users\afigi\Desktop\FoxMined\SourceCode\FindMaximum\FindMaxSum\bin\Debug\netcoreapp3.1\FindMaxSum.dll
+C:\Users\afigi\Desktop\FoxMined\SourceCode\FindMaximum\FindMaxSum\bin\Debug\netcoreapp3.1\FindMaxSum.pdb
+C:\Users\afigi\Desktop\FoxMined\SourceCode\FindMaximum\FindMaxSum\obj\Debug\netcoreapp3.1\FindMaxSum.csprojAssemblyReference.cache
+C:\Users\afigi\Desktop\FoxMined\SourceCode\FindMaximum\FindMaxSum\obj\Debug\netcoreapp3.1\FindMaxSum.AssemblyInfoInputs.cache
+C:\Users\afigi\Desktop\FoxMined\SourceCode\FindMaximum\FindMaxSum\obj\Debug\netcoreapp3.1\FindMaxSum.AssemblyInfo.cs
+C:\Users\afigi\Desktop\FoxMined\SourceCode\FindMaximum\FindMaxSum\obj\Debug\netcoreapp3.1\FindMaxSum.csproj.CoreCompileInputs.cache
+C:\Users\afigi\Desktop\FoxMined\SourceCode\FindMaximum\FindMaxSum\obj\Debug\netcoreapp3.1\FindMaxSum.dll
+C:\Users\afigi\Desktop\FoxMined\SourceCode\FindMaximum\FindMaxSum\obj\Debug\netcoreapp3.1\FindMaxSum.pdb
+C:\Users\afigi\Desktop\FoxMined\SourceCode\FindMaximum\FindMaxSum\obj\Debug\netcoreapp3.1\FindMaxSum.genruntimeconfig.cache
