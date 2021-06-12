@@ -17,23 +17,27 @@ namespace FindMaxSum
 
             for (int numberOfLine=0; numberOfLine < textByLinesArray.Length; numberOfLine++)
             {
-                
                 double localSum = 0.0;
                 var line = textByLinesArray[numberOfLine].Split(',');
                 double[] localDoubleArray = new double[line.Length];
-                try
-                {
+                                
                     for (int i=0; i < line.Length; i++)
                     {
-                        localDoubleArray[i] = Convert.ToDouble(line[i], provider);
-                        localSum += localDoubleArray[i];
+                   
+                    bool parseResult = Double.TryParse(line[i].Trim(), NumberStyles.AllowDecimalPoint, provider, out localDoubleArray[i]);
+                        
+                    if (parseResult)
+                        {
+                            localSum += localDoubleArray[i];
+                        }
+                    else
+                        {
+                        localSum = 0;
+                        badLinesNumberList.Add(numberOfLine + 1);
+                        break;
+                        }
                     }
-                }
-                catch
-                {
-                    localSum = 0;
-                    badLinesNumberList.Add(numberOfLine + 1);
-                }
+              
                 if(localSum > sumOfMembersEachLine)
                 {
                     sumOfMembersEachLine = localSum;

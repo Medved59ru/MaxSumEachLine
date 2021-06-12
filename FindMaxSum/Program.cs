@@ -18,7 +18,7 @@ namespace FindMaxSum
 
             Console.Write ("СПИСОК БРАКОВАННЫХ СТРОК: ");
             foreach(var number in badLinesNumberList)
-                Console.Write(number + ", ");
+                Console.Write(number + "  ");
 
             Console.ReadKey();
 

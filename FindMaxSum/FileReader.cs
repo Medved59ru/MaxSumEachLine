@@ -6,9 +6,9 @@ namespace FindMaxSum
 {
     public class FileReader
     {
-        public static string GetPath(string[]args)
+        public static string GetPath(string[] args)
         {
-            string path="";
+            string path = "";
             try
             {
                 path = args[0];
@@ -17,8 +17,7 @@ namespace FindMaxSum
             {
                 if (string.IsNullOrEmpty(path))
                 {
-                    Console.Write("Введите путь к файлу: ");
-                    path = Console.ReadLine();
+                    path = ReadPathFromConsole();
                     path = CheckThe(path);
                 }
             }
@@ -29,8 +28,7 @@ namespace FindMaxSum
         {
             while (!File.Exists(path))
             {
-                Console.Write("Введите путь к файлу: ");
-                path = Console.ReadLine();
+                path = ReadPathFromConsole();
             }
             return path;
         }
@@ -52,6 +50,10 @@ namespace FindMaxSum
 
             return textByLines.ToArray();
         }
-
+        private static string ReadPathFromConsole()
+        {
+            Console.Write("Введите путь к файлу: ");
+            return Console.ReadLine();
+        }
     }
 }
